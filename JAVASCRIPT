@@ -1,0 +1,10 @@
+const audio =
+document. querySelector(! 'audio');
+
+audio.addEventListener('play', () => {
+    body.classlist.add('play-music');
+});
+
+audio.addEventListener('pause', () => {
+    body.classlist.remove('play-music');
+});
